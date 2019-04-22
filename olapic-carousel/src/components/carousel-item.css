@@ -1,0 +1,27 @@
+.Carousel-Item {
+  display: flex;
+  justify-content: center;
+  border-radius: 0;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+}
+.Carousel-Items-List {
+  height: 400px;
+  overflow: hidden;
+  display: inline-flex;
+  flex-wrap: nowrap;
+}
+.Carousel-Item {
+  padding: 0;
+}
+.Carousel-Photo {
+  border-radius: 0;
+}
+.Carousel-Container {
+  overflow: hidden;
+  margin: 0;
+}
+.container {
+  max-width: 90%;
+}

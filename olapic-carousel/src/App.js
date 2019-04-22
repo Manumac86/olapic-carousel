@@ -1,25 +1,24 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
+import CarouselContainer from "./components/carousel-container";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+          <h2>
+            Carousel UI with React using{" "}
+            <a
+              href="http://apiv2-docs.photorank.me/index.html"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Olapic API
+            </a>
+          </h2>
         </header>
+        <CarouselContainer />
       </div>
     );
   }
